@@ -1,4 +1,3 @@
-README_SANTA GAME
 Spillet er basert på pakken "pygame": https://www.pygame.org/wiki/GettingStarted. 
 Pygame må installeres for å kunne kjøre koden. Målet var å lære mekanismene i pygame til senere prosjekter med grafikk. 
 
