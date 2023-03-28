@@ -15,4 +15,4 @@ JAVASCRIPT, HTML, CSS
 
 C++
 
-Øvingsopplegg fra et kurs på NTNU (fagkode TDT4102).
+- Øvingsopplegg fra et kurs på NTNU (fagkode TDT4102).
