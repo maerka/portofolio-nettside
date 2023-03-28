@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="BlackJack.css">
+
+    <title>Card Game</title>
+</head>
+
+<body>
+    <div class="container">
+    <!-- <div class="container"  style="background-color:cornflowerblue"> -->
+        <h1>Black Jack</h1>
+        <div class='gameBlocks' id="dealer">
+            <h4><span class="box points-round" id="points-dealer"><p>21</p>
+            </span>Dealer's hand</h4>
+        </div>
+
+
+        <div class='gameBlocks' id="player">
+            <h4>Your hand<span class="box points2-square" id="points-player"><p>Player: 13</p></h4>
+        </div>
+
+
+        <div class='gameBlocks' id="buttons">
+            <button value="" class="myButt" id="new-card-btn">New Card?</button>
+            <button value="New Card?" class="myButt" id="show-btn">Show Cards?</button>
+
+        </div>
+        <button class="win" id="restart-btn" style="visibility: hidden">Play again?</button>
+    </div>
+
+    <script src="BlackJack_deckClasses.js"></script>
+    <script src="BlackJack_main.js"></script>
+</body>
+</html>
