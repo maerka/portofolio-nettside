@@ -7,3 +7,8 @@ Regler:
 - Alle andre kort har normal verdi. 
 - Kommer man likt med dealer, vinner dealer med mindre spiller har BlackJack. 
 - BlackJack: 21 poeng med kun 2 kort. 
+
+Om filene:
+- css-fila inneholder noe av styling. Resten er basert på skeleton. 
+- DeckClasses.js inneholder klasser som kreves for å bygge en kortstokk. Kan brukes i andre spill. 
+- main inneholder alle spillmekanismene: Både spillogikken og grafikken. 
