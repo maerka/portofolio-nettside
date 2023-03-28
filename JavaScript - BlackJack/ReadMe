@@ -1,0 +1,9 @@
+Etterligning av kortspillet BlackJack
+
+Man spiller mot dealer. Målet er å komme så nærme 21 som mulig, men ikke over 21. Da taper man. Den av dealer og spiller som har høyest sum vinner.
+Regler:
+- Alle honnørkort har verdi 10
+- Ess teller som 11. Men dersom man overstiger 11, teller den som verdi 1. 
+- Alle andre kort har normal verdi. 
+- Kommer man likt med dealer, vinner dealer med mindre spiller har BlackJack. 
+- BlackJack: 21 poeng med kun 2 kort. 
