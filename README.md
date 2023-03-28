@@ -11,7 +11,7 @@ JAVASCRIPT, HTML, CSS
 
 - "JavaScript - BlackJack:" Jeg tok utgangspunkt i C++ kode og har gjort reglene litt mer komplekse samt lagt på grafikk. Målet var lære å bruke JavaScript sammen med HTML/CSS i selvstendig arbeid. Jeg har brukt skeleton (tilsvarende bootstrap) og skrevet egen CSS-kode etter behov. Se egen ReadMe for detaljer. 
 - "JavsScript - Shorter programs: Noe av koden jeg har skrevet ifm. med Udemy-kurset "Modern JavaScript From the Beginning": https://www.udemy.com/share/101Yp63@WVk4xejUemKJNj3vCQwi2Lm_Tba186MAtZTm7iGY_qKKoaSht3SboHqpP5ROItoUHw==/
-- "JavaScript - HTML/CSS": Script basert på kurs gjennom freecodecamp.org. Målet var å forstå å lære å bruke HTML/CSS.
+- "JavaScript - HTML/CSS": Script basert på kurs gjennom freecodecamp.org. Målet var å forstå og å lære å bruke HTML/CSS.
 
 C++
 
