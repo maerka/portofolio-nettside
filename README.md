@@ -1,3 +1,4 @@
+# README
 Dette er ting jeg har arbeidet med fra desmber 2022. Her laster jeg opp ferdige prosjekter. Jeg har startet å jobbe med Python, men har nå gått over til JavaScript og HTML/CSS og meg videre herfra. Målet er å kunne litt om hele stacken. Fra tidligere har jeg prosjekter skrevet i C++.
 
 PYTHON-mappene - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk. I mappene finner du:
