@@ -1,0 +1,124 @@
+/*
+<div class="frame">
+    <div class="canvas">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</div>*/
+
+.frame { /* SVart ramme*/
+    border: 50px solid black; /*Tykkelse på ramme*/
+    width: 500px;               /*Bredde innside av hvit padding. Innside svart rammen får bredde 500+2*40=580 */
+    padding: 40px;              /*Tykkelse på det hvite mellom ramme og bilde*/
+    margin: 20px auto 5px;      /*Plassering av ramme og alt innenfor (se html-strutur for hvorfor) 
+                                Topp 20px, sider: sentrert, bunn 5px */
+  }
+
+.canvas { 
+/*Canvas (bakgrunn) tegnes oppå ramme, men under firkanter*/
+    width: 500px;
+    height: 600px;      /*Dersom høyden økes, utvides ramma så lenge høyde på ramme ikke er bestemt*/ 
+    background-color: #4d0f00;
+    overflow: hidden; /* Overflow bestemmer hva som skjer med innhold som er for stort til å passe inn i et område. 
+                        Bedre vist her: https://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_visible */
+    /*filter: blur(0px);*/
+  }
+  
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;      /*Avstand fra hvit padding*/
+    box-shadow: 0 0 3px 3px #000000;    /*skygge rundt boks */
+    border-radius: 9px;
+    transform: rotate(-0.6deg);
+    /*filter: blr(0px);*/
+  }
+  
+.two {
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 3px 3px #8f0401;
+    border-radius: 8px 20px;
+    transform: rotate(0.4deg);
+    /*filter: blur(0px); //1px*/
+  }
+  
+  
+.three {
+    width: 91%;
+    height: 28%;
+    background-color: #b20403;
+    margin: auto;
+    filter: blur(2px);
+    box-shadow: 0 0 5px 5px #000000;
+    border-radius: 30px 25px 60px 12px;
+    transform: rotate(-0.2deg)
+  }
+
+/* Eksperimenter med bokser */
+.myBlocks{
+    border: 2px solid black;
+    max-width: 1200px;
+    height: 300px;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+}
+
+
+  .rec100i {
+    display: inline;
+    width: 100px;
+    height: 60px;
+    background-color:chocolate;
+    margin: 0 auto;
+  }
+
+  .rec100ib{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    background-color:chocolate;
+    margin: 0px auto;
+  }
+
+  .rec100b {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background-color:chocolate;
+    margin: 0px auto;
+  }
+
+  .rec500i {
+    display: inline;
+    width: 500px;
+    height: 60px;
+    background-color: aquamarine;
+    margin: 0px auto;
+  }
+  .rec500ib {
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    background-color: aquamarine;
+    margin: 0px auto;
+  }
+  .rec580b {
+    display: block;
+    width: 580px;
+    height: 60px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    border:1px solid black;
+  }
+
+.myImage{
+        display: block;
+        margin: 25px auto;
+}
+
