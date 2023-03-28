@@ -1,0 +1,2 @@
+"BlackJack" inneholder 3 filer: Card, cardDeck og main_BlackJack. Sammen utgjør det et spillet BlackJack (uten grafikk).
+"CannonBall" Inneholder 2 filer: cannonball og main_cannonball. Sammen utgjør de et lite spill hvor man skal skyte en kule ved å velge kraft og vinkel. Jeg har ikke fått lagt inn grafikk enda. Det kommer kanskje en dag. Det vil være et delmål mot hovedmålet som er å lage en enkel utgave av spillet worms.
