@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="norris.css"></script>
+    <title>Chuck Norris Joke Generator</title>
+</head>
+<body>
+    <div class="container" style="padding:5px">This application generates "facts" from <a href="chucknorris.io">chucknorris.io</a>, which is a free JSON API for hand curated Chuck Norris facts.
+    </div>
+
+    <div class="container">
+        <h2>Chuck Norris Joke Generator</h2>
+        <form>
+            <div>
+                <h3>Choose a category</h3>
+                <table id="table" class ='table'></table>
+                <input id="number" placeholder="Enter a category...">
+            </div>
+            <div class="joke" id="joke">...</div>
+            <div>
+                
+                <button class="btn">Get Jokes</button>
+            </div>
+        </form>
+
+        <ul class="jokes"></ul>
+    </div>
+
+    <script src="norris.js"></script>
+
+</body>
+</html>
