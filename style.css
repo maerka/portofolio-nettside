@@ -1,0 +1,87 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    /* background-color: #777879; */
+    background-color: brown;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/cover.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.bold2{
+    font-weight:bold;
+    color:black;
+}
+
+/* Bakcground color for body */
+.background{
+    /* background-color: rgb(184, 180, 134); */
+    background-color: darkkhaki;
+    
+}
+ 
+/* style="background-color:darkkhaki ;" */
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.hero-text, .hero_title{
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 10%;
+
+}
+
+.card-image{
+    /* width: 100%; */
+    /* height: ; */
+    /* object-fit: contain; */
+    align-self: center;
+}
+
+
+.table-width {
+    width: 100%;
+}
+
+.td-top{
+    vertical-align: top;
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #4d4d4d;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    text-align: center;
+}

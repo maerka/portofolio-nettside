@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container {
+            /* position: relative; */
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            box-sizing: border-box; 
+            background-color: beige;
+
+            text-align: center;
+            /* margin: 10px auto; */
+        }
+
+        .gameBlocks{
+            margin: 10px auto;
+        }
+
+        .myButt{
+            background-color: cadetblue;
+            color:black;
+            /* border:1px solid black; */
+        }
+
+        .win{
+            color: black;
+            background: lightgreen;
+            font-size: 15px;
+            border: 1px solid black;
+            /* display: none; */
+        }
+        .loose{
+            color: black;
+            background: lightpink;
+            font-size: 15px;
+            border: 1px solid black;
+        }
+
+        .box{
+            display: inline-block;
+            height: 38px;
+            padding: 0 30px;
+            color: black;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: .1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            /* cursor: pointer; */
+            box-sizing: border-box;
+
+        }
+
+        .points-round{
+            position:absolute;
+            right: 10%;
+            width: 50px;
+            height: 50px;
+            padding: 0 5px;
+            line-height: 50px;
+            border-radius: 50%;
+            /* font-size: px; */
+            color: black;
+            text-align: center;
+            background: cadetblue;
+            cursor: default;
+
+            font-size: 25px;
+        }
+
+        .points2-square{
+            position:absolute;
+            right: 10%;
+            /* width: 50px; */
+            /* height: 50px; */
+            /* padding:auto 5px; */
+            /* line-height: 50px; */
+            /* border-radius: 10%; */
+            /* font-size: px; */
+            color: black;
+            text-align: center;
+            background: cadetblue;
+            font-size: 15px;
+        }
+
+        .card {
+            display: inline-block;
+            width: 60px;
+            height: 100px;
+            /* background-color:blanchedalmond; */
+            border: 1px solid black;
+            padding: 5px;
+            margin: auto 5px;
+            text-size-adjust: 5;
+            font-size: 9mm;
+            border-radius: 3px;
+            box-shadow: 0px -1px 3px 1px black; /* offset-x | offset-y | blur-radius | spread-radius | color */
+        }
+        .face-down{
+            background-color:brown;
+            color:transparent;
+        }
+        .face-up{
+            background-color:blanchedalmond;
+        }
+    </style>
+
+    <title>Card Game</title>
+</head>
+
+<body>
+    <div class="container">
+    <!-- <div class="container"  style="background-color:cornflowerblue"> -->
+        <h1>Black Jack</h1>
+        <div class='gameBlocks' id="dealer">
+            <h4><span class="box points-round" id="points-dealer"><p>21</p>
+            </span>Dealer's hand</h4>
+        </div>
+
+
+        <div class='gameBlocks' id="player">
+            <h4>Your hand<span class="box points2-square" id="points-player"><p>Player: 13</p></h4>
+        </div>
+
+
+        <div class='gameBlocks' id="buttons">
+            <button value="" class="myButt" id="new-card-btn">New Card?</button>
+            <button value="New Card?" class="myButt" id="show-btn">Show Cards?</button>
+
+        </div>
+        <button class="win" id="restart-btn" style="visibility: hidden">Play again?</button>
+    </div>
+
+    <script src="cardDeck.js"></script>
+    <script src="blackJack.js"></script>
+</body>
+</html>
