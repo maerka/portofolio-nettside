@@ -49,74 +49,123 @@
 
 
 
-    <div class="row mt-5 text-center">
-        <h1  style="padding-top: 50px;">Simuleringer</h1>
+    <div class="row mt-5">
+        <div class="col-lg-8 mx-auto ">
 
-        <h4>Elastiske støt mellom partikler <a href="https://github.com/maerka/My-Projects/tree/main/Python%20-%20Simulations" class="btn btn-secondary mx-3" target="_blank">GitHub</a></h4>
-        <!-- <div class="row"> -->
-            <div class="col-lg-12 mx-auto">
-        <p class="text-center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. L</p>
-    </div>
-        <!-- </div> -->
+            <h1 style="padding-top:50px;" class="text-center">Simuleringer</h1>
+
+            <h4 class="text-center">Elastiske støt mellom partikler <a href="https://github.com/maerka/My-Projects/tree/main/Python%20-%20Simulations" class="btn btn-secondary mx-3" target="_blank">GitHub</a></h4>
+
         
         
-        <div id="gifs1" class="row" > 
+            <p style="margin:0">
+                Simuleringene er laget med Python og Matplotlib i to ulike script: ett for kollisjonene i 1D og ett for 2D. Støtene er elastiske, altså at bevegelsesmengden er bevart fra start til slutt. Kulenes radiusen er proporsjonal med masse &times fart, som blir satt tilfeldig.
+                Scriptenes oppbygning:<br> <br>
+                <ul>
+
+                    - Definisjon av partikkelklassen</b> <br>
+                        <ul>Hver partikkel bygges som et objekt. </ul>
+                    - Vektor-matematikk</b>
+                        <ul>Funksjoner som dekomponering av krefter og hastigheter.</ul>
+                    - Kollisjons-funksjoner</b>
+                        <ul>Funksjonene for logikken og beregningene bak hver enkelt kollisjon.</ul>
+                    - Bygge partiklene</b>
+                        <ul>Funksjonene setter opp simluleringens start.</ul>
+                    - Animasjoner</b>
+                        <ul>Funksjonene animerer kollisjonene med Matplotlib. </ul>
+                    - MAIN</b>
+                    <ul>Bruker må manuelt bestemme antall partikler og andre rammebetingelser. <br>
+                        Velg om man skal bruke build3Particles() eller buildNParticles() der N er antall partikler.   </ul>                                     
+                
+                
+
+            </p>
+
+        </div>
+
+
+     
+        
+
+
+
+        <div id="gifs1" class="row mt-3 mb-5"> 
 
             <!-- simulation 1 -->
-            <div class="card col m-3 border-dark border-2">
-                <img src="projects/video/1D_particles_N=3.gif" class="card-img-top" alt="SomeText">
-                <div class="card-body">
-                    <h4 class="card-title">3 partikler i 1D</h4>
-                    <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+            <div class="col-lg-6 mt-3">
+                <div class="card border-dark border-2 card-img-top" style="width:100%">
+                    <img src="projects/video/1D_particles_N=3.gif" class="card-img-top" alt="SomeText">
+                    <div class="card-body">
+                        <h4 class="card-title">3 partikler i 1D</h4>
+                        <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                    </div>
                 </div>
             </div>
 
             <!-- simulation 2 -->
-            <div class="card col m-3 border-dark border-2">
-                <img src="projects/video/1D_particles_N=20.gif" class="card-img-top" alt="SomeText">
-                <div class="card-body">
-                    <h4 class="card-title">20 partikler i 1D</h4>
-                    <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+            <div class="col-lg-6 mt-3">
+                <div class="card border-dark border-2 card-img-top" style="width:100%">
+                    <img src="projects/video/1D_particles_N=20.gif" class="card-img-top" alt="SomeText">
+                    <div class="card-body">
+                        <h4 class="card-title">20 partikler i 1D</h4>
+                        <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div id="gifs2" class="row" >
-
+            </div>         
+            
             <!-- simulation 3 -->
-            <div class="card col m-3 border-dark border-2">
-                <img src="projects/video/2D_particles_N=3.gif" class="card-img-top" alt="SomeText">
-                <div class="card-body">
-                    <h4 class="card-title">3 partikler i 2D</h4>
-                    <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+            <div class="col-lg-6 mt-3">
+                <div class="card border-dark border-2 card-img-top" style="width:100%">
+                    <img src="projects/video/2D_particles_N=3.gif" class="card-img-top" alt="SomeText">
+                    <div class="card-body">
+                        <h4 class="card-title">3 partikler i 2D</h4>
+                        <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                    </div>
                 </div>
-            </div>
+            </div>  
 
             <!-- simulation 4 -->
-            <div class="card col m-3 border-dark border-2">
-                <img src="projects/video/2D_particles_N=60.gif" class="card-img-top" alt="SomeText">
-                <div class="card-body">
-                    <h4 class="card-title">60 partikler i 1D</h4>
-                    <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+            <div class="col-lg-6 mt-3">
+                <div class="card border-dark border-2 card-img-top" style="width:100%">
+                    <img src="projects/video/2D_particles_N=60.gif" class="card-img-top" alt="SomeText">
+                    <div class="card-body">
+                        <h4 class="card-title">60 partikler i 1D</h4>
+                        <!-- <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                    </div>
                 </div>
-            </div>
-
-
-        </div>
+            </div>  
+        </div>    
     </div>
-
-
-
+</section>                
+         
 <!-- santaGame -->
-<section id="santagame" >
+<section id="santagame" class="container" >
     <div class="row mt-5 text-center">
         <h1>Spill: Santa Game</h1>
+
+        <div class="col-lg-8 mx-auto ">
+
+        
+
         <h4>En videodemonstrasjon <a href="https://github.com/maerka/My-Projects/tree/main/Python%20-%20SantaGame" class="btn btn-secondary mx-3" target="_blank">GitHub</a></h4>
+
+        <p class="text-start">
+            Spillet er basert på biblioteket <a href="https://www.pygame.org/wiki/GettingStarted" class="text-grey">Pygame</a>. Målet var å lære mekanismene i pygame til senere prosjekter med grafikk. Spillet viser et reinsdyr som springer bortover. Dersom det kommer borti nissen eller Grinchen, er spillet over.
+            Programmets spilløkke har 3 ulike stauser: <br>
+            <ul class="text-start">
+                game_state == 0: Meny <br>                
+                game_state == 1: Spillet kjører som normalt <br>
+                game_state == 2: Reinsdyr har truffet nisse. Kjører game over-animasjon <br>
+            </ul>             
+        </p>
+
         <div class="col-md-12 mt-3">
-            <video style= "width:100% ; max-height: 400px;" controls>
+            <video style= "width:100%;" controls>
                 <source src="projects/video/santagame-video.mkv" type="video/mp4">
             Your browser does not support the video tag.
             </video>
         </div>
+    </div>
     </div>
 </section>
 
